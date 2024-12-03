@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+em {
+    color: #A5B4FC;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #A5B4FC;
+    font-size: 3.5em;
+}
+
+h2 {
+    color: #f9f8ff;
+}
+
+p,li {
+    font-size: 1.1em;
+    color: #f9f8ff;
+}
+
+header,
+footer {
+    background-color: white;
+    opacity: 0.5;
+    padding: 20px 50px;
+}
+
+.cta {
+    display: inline-block;
+    background: linear-gradient(#8E86B5, #ACAEED);
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.lien-icone {
+    margin-left: 30px;
+}
+  
+.lien-icone:hover {
+    opacity: 0.5;
+}
+
+.competence {
+    border-right: 1px #8E86B5 solid;
+    border-bottom: 1px #8E86B5 solid;
+}
+
+.competence h2 {
+    margin-top: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+  
+
+.cta:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+}
+
+section {
+    padding: 120px;
+}
+
+.a-propos-main {
+    width: 50%;
+    margin: auto;
+}
+
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+.accueil-photos {
+  background-color: white;
+  padding: 80px;
+}
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accueil-introduction {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.accueil-introduction h1 {
+  margin-bottom: 15px;
+}
+
+.accueil-introduction p {
+  margin-bottom: 30px;
+}
+
+.accueil-introduction div {
+  padding-right: 80px;
+}
+
+.portfolio-section-photos {
+  background-color: white;
+}
+
+.portfolio-section-photos h2 {
+  color: #242424;
+  margin-top: 80px;
+}
+
+.grid-paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
+}
+
+.grid-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+}
+
+.grid-paysages img,
+.grid-portraits img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lien-conteneur-photo {
+  position: relative;
+}
+
+.photo-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.lien-conteneur-photo:hover .photo-hover {
+  display: flex;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 25px;
+  margin-left: 300px;
+}
+
+td, th {
+  border: 1px solid white;
+  padding: 40px;
+  color: white;
+}
+
+caption {
+  color: white;
+  font-size: 2em;
+}
+
+label {
+  color: white;
+}
+
+section h3 {
+  color: white;
+  margin-left: 500px;
+}
+
+.btn {
+  padding: 1rem;
+  border: none;
+  font-weight: 300;
+  font-size: 1.25rem;
+  border-radius: .3rem;
+  color: white;
+  width: 100%;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: steelblue;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid white;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+textarea {
+  height: 323px; 
+  width: 1108px;
+}
