@@ -1,1 +1,1 @@
-Base de code pour le cours HTML CSS
+Base HTML CSS
